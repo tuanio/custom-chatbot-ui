@@ -6,7 +6,7 @@ export const DEFAULT_SYSTEM_PROMPT =
 
 export const OPENAI_API_HOST =
   // process.env.OPENAI_API_HOST || 'https://api.openai.com';
-  process.env.OPENAI_API_HOST || 'https://12d3-34-31-56-228.ngrok-free.app';
+  process.env.OPENAI_API_HOST || 'https://localhost:8000';
 
 export const DEFAULT_TEMPERATURE = 
   parseFloat(process.env.NEXT_PUBLIC_DEFAULT_TEMPERATURE || "0.1");
