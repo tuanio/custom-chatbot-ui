@@ -9,7 +9,7 @@ export const OPENAI_API_HOST =
   process.env.OPENAI_API_HOST || 'https://localhost:8000';
 
 export const DEFAULT_TEMPERATURE = 
-  parseFloat(process.env.NEXT_PUBLIC_DEFAULT_TEMPERATURE || "0.1");
+  parseFloat(process.env.NEXT_PUBLIC_DEFAULT_TEMPERATURE || "1");
 
 export const OPENAI_API_TYPE =
   process.env.OPENAI_API_TYPE || 'openai';
