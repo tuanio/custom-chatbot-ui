@@ -12,7 +12,7 @@ export enum OpenAIModelID {
   GPT_3_5_AZ = 'gpt-35-turbo',
   GPT_4 = 'gpt-4',
   GPT_4_32K = 'gpt-4-32k',
-  VICUNA_13B = 'vicuna-13b-v1.1'
+  DEMANDGPT = 'demandgpt-v1.0'
 }
 
 // in case the `DEFAULT_MODEL` environment variable is not set or set to an unsupported model
@@ -43,9 +43,9 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
     maxLength: 96000,
     tokenLimit: 32000,
   },
-  [OpenAIModelID.VICUNA_13B]: {
-    id: OpenAIModelID.VICUNA_13B,
-    name: 'Vicuna-13B',
+  [OpenAIModelID.DEMANDGPT]: {
+    id: OpenAIModelID.DEMANDGPT,
+    name: 'DemandGPT',
     maxLength: 8000,
     tokenLimit: 2048,
   },

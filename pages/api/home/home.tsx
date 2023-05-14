@@ -124,7 +124,7 @@ const Home = ({
     dispatch({ field: 'folders', value: updatedFolders });
     saveFolders(updatedFolders);
   };
-
+  
   const handleDeleteFolder = (folderId: string) => {
     const updatedFolders = folders.filter((f) => f.id !== folderId);
     dispatch({ field: 'folders', value: updatedFolders });

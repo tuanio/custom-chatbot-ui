@@ -16,7 +16,7 @@ export const cleanSelectedConversation = (conversation: Conversation) => {
   if (!updatedConversation.model) {
     updatedConversation = {
       ...updatedConversation,
-      model: updatedConversation.model || OpenAIModels[OpenAIModelID.VICUNA_13B],
+      model: updatedConversation.model || OpenAIModels[OpenAIModelID.DEMANDGPT],
     };
   }
 
